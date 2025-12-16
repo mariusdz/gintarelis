@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
         const img =
           post._embedded?.["wp:featuredmedia"]?.[0]?.source_url ??
-          "/img/placeholder.jpg";
+          "img/placeholder.jpg";
 
         return `
         <article class="bg-white shadow-lg rounded-xl overflow-hidden hover:scale-[1.02] transition">

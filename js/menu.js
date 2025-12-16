@@ -15,15 +15,6 @@ if (burger) {
   });
 }
 
-// SHOW NAV ONLY AFTER HERO BUTTON PRESS
-const discoverBtn = document.getElementById('discoverBtn');
-const mainHeader = document.getElementById('mainHeader');
-
-if (discoverBtn) {
-  discoverBtn.addEventListener('click', () => {
-    mainHeader.classList.remove('hidden');
-  });
-}
 
 // expose closeMobile so links can call it inline
 window.closeMobile = closeMobile;
