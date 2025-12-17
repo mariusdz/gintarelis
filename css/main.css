@@ -1,69 +1,55 @@
-/* ---------------------------------- */
-/* FADE-IN ANIMATIONS */
-/* ---------------------------------- */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
+/* Burger linijos */
+.burger-line {
+  display: block;
+  width: 24px;
+  height: 3px;
+  background: #2596be;
+  transition: all 0.3s ease;
+}
 
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* Burger → X */
+#burger.active .burger-line:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+#burger.active .burger-line:nth-child(2) {
+  opacity: 0;
+}
+#burger.active .burger-line:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Mobile mygtukai */
+.mobile-btn {
+  padding: 12px 16px;
+  border-radius: 9999px;
+  background: rgba(37, 150, 190, 0.1);
+  color: #005f88;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.mobile-btn:hover {
+  background: #2596be;
+  color: #fff;
+  transform: translateY(-4px) scale(1.05);
+}
+
+/* Fade-in animacija */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .animate-fadeIn {
   animation: fadeIn 1s ease forwards;
 }
+.delay-200 { animation-delay: 0.2s; }
 
-.delay-200 {
-  animation-delay: .2s;
-}
-
-.delay-300 {
-  animation-delay: .3s;
-}
-
-
-/* ---------------------------------- */
-/* MOBILE MENU */
-/* ---------------------------------- */
-#mobileMenu {
-  transition: transform .25s ease, opacity .25s ease;
-}
-
-/* ---------------------------------- */
-/* FOOTER FIX (center on mobile) */
-/* ---------------------------------- */
-footer ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-@media (max-width: 768px) {
-  footer .max-w-6xl {
-    text-align: center;
-  }
-
-  footer ul li {
-    text-align: center;
-  }
-}
-
-/* ---------------------------------- */
-/* SCROLL REVEAL */
-/* ---------------------------------- */
-
-.reveal {
-  transition: all 0.8s ease;
-  opacity: 0;
-  transform: translateY(1.5rem);
-}
-
-.reveal.active {
-  opacity: 1;
-  transform: translateY(0);
+/* Header smooth blur/opacity transition */
+#mainHeader {
+  transition:
+    background-color 0.4s ease,
+    backdrop-filter 0.4s ease,
+    box-shadow 0.4s ease;
 }
 

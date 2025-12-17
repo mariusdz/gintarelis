@@ -53,75 +53,124 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
-  <body class="bg-[#f2f7fb] text-[#2596be]">
-    <!-- NAVIGATION (sticky) -->
-    <header id="mainHeader" class="fixed top-0 left-0 w-full z-50">
-      <div class="bg-white/90 backdrop-blur shadow-md">
-        <div
-          class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
-        >
-          <div class="flex items-center gap-4">
-            <div class="flex items-center gap-4">
-              <a
-                href="/"
-                class="flex items-center gap-3 cursor-pointer hover:opacity-80 transition"
-              >
-                <img
-                  src="img/galutinis-gintarelis-logo.png"
-                  class="h-12 w-12 object-contain"
-                />
-                <h1
-                  class="hidden min-[250px]:block font-bold text-[#2596be] text-lg"
-                >
-                  Klaipėdos „Gintarėlis“
-                </h1>
-              </a>
-            </div>
-          </div>
-
-          <!-- desktop nav -->
-          <nav class="hidden md:flex gap-8 font-bold">
-            <a href="#naujienos" class="hover:text-[#005f88]">Naujienos</a>
-            <a href="#apie" class="hover:text-[#005f88]">Apie mus</a>
-            <a href="#ugdymas" class="hover:text-[#005f88]">Ugdymas</a>
-            <a href="#galerija" class="hover:text-[#005f88]">Galerija</a>
-            <a href="#kontaktai" class="hover:text-[#005f88]">Kontaktai</a>
-          </nav>
-
-          <!-- mobile hamburger -->
-          <button
-            id="burger"
-            class="md:hidden p-2 rounded-md"
-            aria-label="Open menu"
+  <body class="text-[#2596be]">
+    <<!-- ================= HEADER ================= -->
+    <header
+      id="mainHeader"
+      class="fixed top-0 left-0 w-full z-50 bg-white/30 backdrop-blur-md border-b border-white/30 transition-all duration-300"
+    >
+      <div
+        class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <!-- LOGO -->
+        <a href="./" class="flex items-center gap-3 group">
+          <img
+            src="./img/galutinis-gintarelis-logo.png"
+            class="h-12 w-12 object-contain"
+          />
+          <h1
+            class="hidden min-[250px]:block font-bold text-lg transition group-hover:text-[#005f88]"
           >
-            <span class="block w-6 h-1 bg-[#2596be] mb-1"></span>
-            <span class="block w-6 h-1 bg-[#2596be] mb-1"></span>
-            <span class="block w-6 h-1 bg-[#2596be]"></span>
-          </button>
-        </div>
+            Klaipėdos „Gintarėlis“
+          </h1>
+        </a>
 
-        <!-- mobile menu (hidden by default) -->
-        <nav id="mobileMenu" class="md:hidden hidden bg-white/95 border-t">
-          <div
-            class="max-w-6xl mx-auto px-6 py-4 flex flex-col gap-3 font-bold text-center"
+        <!-- DESKTOP NAV -->
+        <nav class="hidden md:flex gap-8 font-bold">
+          <a
+            href="#naujienos"
+            class="relative group font-bold text-[#2596be] transition-colors hover:text-[#005f88]"
           >
-            <a href="#naujienos" class="py-2" onclick="closeMobile()"
-              >Naujienos</a
+            Naujienos
+            <span
+              class="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#005f88] transition-all duration-300 group-hover:w-full"
             >
-            <a href="#apie" class="py-2" onclick="closeMobile()">Apie mus</a>
-            <a href="#ugdymas" class="py-2" onclick="closeMobile()">Ugdymas</a>
-            <a href="#galerija" class="py-2" onclick="closeMobile()"
-              >Galerija</a
+            </span>
+          </a>
+
+          <a
+            href="#apie"
+            class="relative group font-bold text-[#2596be] transition-colors hover:text-[#005f88]"
+          >
+            Apie mus
+            <span
+              class="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#005f88] transition-all duration-300 group-hover:w-full"
             >
-            <a href="#kontaktai" class="py-2" onclick="closeMobile()"
-              >Kontaktai</a
+            </span>
+          </a>
+
+          <a
+            href="#ugdymas"
+            class="relative group font-bold text-[#2596be] transition-colors hover:text-[#005f88]"
+          >
+            Ugdymas
+            <span
+              class="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#005f88] transition-all duration-300 group-hover:w-full"
             >
-          </div>
+            </span>
+          </a>
+
+          <a
+            href="#galerija"
+            class="relative group font-bold text-[#2596be] transition-colors hover:text-[#005f88]"
+          >
+            Galerija
+            <span
+              class="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#005f88] transition-all duration-300 group-hover:w-full"
+            >
+            </span>
+          </a>
+
+          <a
+            href="#kontaktai"
+            class="relative group font-bold text-[#2596be] transition-colors hover:text-[#005f88]"
+          >
+            Kontaktai
+            <span
+              class="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#005f88] transition-all duration-300 group-hover:w-full"
+            >
+            </span>
+          </a>
         </nav>
+
+        <!-- BURGER -->
+        <button
+          id="burger"
+          class="md:hidden flex flex-col gap-1.5 p-2"
+          aria-label="Menu"
+        >
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
       </div>
+
+      <!-- MOBILE MENU -->
+      <nav
+        id="mobileMenu"
+        class="md:hidden overflow-hidden max-h-0 opacity-0 transition-all duration-300 bg-white/90 backdrop-blur border-t"
+      >
+        <div class="px-6 py-6 flex flex-col gap-4 font-bold text-center">
+          <a href="#naujienos" class="mobile-btn" onclick="closeMobile()"
+            >Naujienos</a
+          >
+          <a href="#apie" class="mobile-btn" onclick="closeMobile()"
+            >Apie mus</a
+          >
+          <a href="#ugdymas" class="mobile-btn" onclick="closeMobile()"
+            >Ugdymas</a
+          >
+          <a href="#galerija" class="mobile-btn" onclick="closeMobile()"
+            >Galerija</a
+          >
+          <a href="#kontaktai" class="mobile-btn" onclick="closeMobile()"
+            >Kontaktai</a
+          >
+        </div>
+      </nav>
     </header>
 
-    <!-- HERO with background video -->
+    <!-- ================= HERO ================= -->
     <section id="hero" class="relative h-screen w-full overflow-hidden pt-24">
       <video
         autoplay
@@ -133,7 +182,7 @@
         <source src="video/osia-jura.mp4" type="video/mp4" />
       </video>
 
-      <div class="absolute inset-0 bg-black/40"></div>
+      <div class="absolute inset-0 bg-black/20"></div>
 
       <div
         class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4"
@@ -355,38 +404,25 @@
           class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 px-6 text-center md:text-left"
         >
           <div>
-            <h2 class="text-xl font-bold mb-3">Informacija</h2>
-            <ul class="space-y-2 text-left">
+            <h2 class="text-xl font-bold mb-3 text-center md:text-left">
+              Informacija
+            </h2>
+            <ul class="space-y-2 flex flex-col items-center md:items-start">
               <li>
-                <a
-                  href="#apie"
-                  class="text-white text-base px-3 py-1 rounded-md hover:text-blue-400 hover:font-bold hover:scale-110 hover:-translate-y-1 hover:shadow-xl transition duration-300 ease-in-out"
-                >
-                  Apie mus
-                </a>
+                <a href="#apie" class="footer-link">Apie mus</a>
               </li>
               <li>
-                <a
-                  href="#galerija"
-                  class="text-white text-base px-3 py-1 rounded-md hover:text-blue-400 hover:font-bold hover:scale-110 hover:-translate-y-1 hover:shadow-xl transition duration-300 ease-in-out"
-                >
-                  Galerija
-                </a>
+                <a href="#galerija" class="footer-link">Galerija</a>
               </li>
-
               <li>
-                <a
-                  href="#kontaktai"
-                  class="text-white text-base px-3 py-1 rounded-md hover:text-blue-400 hover:font-bold hover:scale-110 hover:-translate-y-1 hover:shadow-xl transition duration-300 ease-in-out"
-                  >Kontaktai</a
-                >
+                <a href="#kontaktai" class="footer-link">Kontaktai</a>
               </li>
             </ul>
           </div>
 
           <div>
             <h2 class="text-xl font-bold mb-3">Informacija</h2>
-            <ul class="space-y-2 text-left">
+            <ul class="space-y-2 flex flex-col items-center md:items-start">
               <li>
                 <a
                   href="#ugdymas"
