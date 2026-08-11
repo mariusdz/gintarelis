@@ -1,0 +1,219 @@
+/**
+ * Cookie consent banner styles.
+ * WCAG 2.1 AA: sufficient contrast, visible focus, reduced-motion support.
+ * All class names are prefixed `cb-` to avoid collisions with site styles.
+ */
+
+.cb-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: none;
+  background: #ffffff;
+  color: #1e293b;
+  border-top: 3px solid #005f88;
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.18);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.cb-banner.cb-visible {
+  display: block;
+  animation: cb-slide-up 0.25s ease-out;
+}
+
+@keyframes cb-slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cb-banner.cb-visible {
+    animation: none;
+  }
+}
+
+.cb-inner {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.cb-content {
+  flex: 1 1 32rem;
+  min-width: 16rem;
+}
+
+.cb-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #005f88;
+}
+
+.cb-text {
+  margin: 0;
+}
+
+.cb-text a {
+  color: #005f88;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.cb-text a:hover {
+  color: #00405a;
+}
+
+.cb-settings {
+  margin-top: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cb-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.cb-option input[type="checkbox"] {
+  width: 1.15rem;
+  height: 1.15rem;
+  margin-top: 0.15rem;
+  accent-color: #005f88;
+  flex-shrink: 0;
+}
+
+.cb-option small {
+  color: #475569;
+}
+
+.cb-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.cb-btn {
+  appearance: none;
+  border-radius: 0.5rem;
+  padding: 0.65rem 1.1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.cb-btn-primary {
+  background: #005f88;
+  color: #ffffff;
+  border-color: #005f88;
+}
+
+.cb-btn-primary:hover {
+  background: #00405a;
+  border-color: #00405a;
+}
+
+.cb-btn-secondary {
+  background: #ffffff;
+  color: #005f88;
+  border-color: #005f88;
+}
+
+.cb-btn-secondary:hover {
+  background: #f0f9ff;
+}
+
+.cb-btn-ghost {
+  background: transparent;
+  color: #334155;
+  border-color: #cbd5e1;
+}
+
+.cb-btn-ghost:hover {
+  background: #f1f5f9;
+}
+
+/* Visible keyboard focus (WCAG 2.4.7) */
+.cb-btn:focus-visible,
+.cb-text a:focus-visible,
+.cb-option input:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 2px;
+}
+
+/* Placeholder shown in place of a blocked third-party embed
+   (used with data-cookie-category / data-cookie-src elements). */
+.cb-embed-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  background: #f0f9ff;
+  color: #1e293b;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.cb-embed-placeholder p {
+  margin: 0;
+  max-width: 26rem;
+}
+
+.cb-embed-placeholder .cb-btn {
+  flex: 0 0 auto;
+}
+
+.cb-embed-placeholder .cb-btn:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 2px;
+}
+
+/* Once embeds consent is granted, placeholders are hidden and the
+   activated embed becomes visible. */
+html.cb-embeds-on .cb-embed-placeholder {
+  display: none;
+}
+
+@media (max-width: 40rem) {
+  .cb-inner {
+    flex-direction: column;
+  }
+
+  .cb-actions {
+    width: 100%;
+  }
+
+  .cb-btn {
+    flex: 1 1 auto;
+  }
+}

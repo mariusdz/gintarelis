@@ -1,550 +1,150 @@
 <!DOCTYPE html>
 <html lang="lt">
   <head>
-    <!-- Basic -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Title (LABAI SVARBU SEO) -->
     <title>Darželis „Gintarėlis“ Klaipėdoje | Ikimokyklinis ugdymas</title>
+    <meta name="description" content="Klaipėdos lopšelio-darželio „Giliukas“ „Gintarėlio“ skyrius – jūros įkvėptas darželis Giruliuose. Saugus, šiltas ir profesionalus ikimokyklinis ugdymas." />
+    <meta name="keywords" content="darželis Klaipėdoje, Gintarėlis, ikimokyklinis ugdymas, darželis Giruliuose, lopšelis-darželis Giliukas" />
+    <meta name="author" content="Klaipėdos lopšelis-darželis „Giliukas“" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#005f88" />
 
-    <!-- Meta Description -->
-    <meta
-      name="description"
-      content="Privatus darželis „Gintarėlis“ Klaipėdoje – kokybiškas ikimokyklinis ugdymas, saugi aplinka, patyrę pedagogai. Kviečiame susipažinti."
-    />
-
-    <!-- Keywords (nebekritinis, bet nepakenkia) -->
-    <meta
-      name="keywords"
-      content="darželis Klaipėdoje, privatus darželis, Gintarėlis, ikimokyklinis ugdymas, darželis Giruliuose"
-    />
-
-    <!-- Author -->
-    <meta name="author" content="Darželis Gintarėlis" />
-
-    <!-- Canonical -->
     <link rel="canonical" href="https://gintarelis.lt/" />
 
-    <!-- Open Graph (Facebook, Messenger) -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Darželis „Gintarėlis“ Klaipėdoje" />
-    <meta
-      property="og:description"
-      content="Privatus darželis „Gintarėlis“ Klaipėdoje – saugi, šilta ir tobulėjimą skatinanti aplinka vaikams."
-    />
+    <meta property="og:description" content="Jūros įkvėpti, miško ramybėje – kur vaikystė suspindi kaip gintaras." />
     <meta property="og:url" content="https://gintarelis.lt/" />
-    <meta
-      property="og:image"
-      content="https://gintarelis.lt/img/og-image.jpg"
-    />
+    <meta property="og:image" content="https://gintarelis.lt/img/og-image.jpg" />
     <meta property="og:locale" content="lt_LT" />
 
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Darželis „Gintarėlis“ Klaipėdoje" />
+    <meta name="twitter:description" content="Jūros įkvėpti, miško ramybėje – kur vaikystė suspindi kaip gintaras." />
+    <meta name="twitter:image" content="https://gintarelis.lt/img/og-image.jpg" />
+
     <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/img/galutinis-gintarelis-logo.png" />
 
     <!-- Styles -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="image" href="/assets/images/poster.webp" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/tailwind.css" />
+    <script defer src="https://unpkg.com/lucide@1.24.0/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/cookie-banner.css" />
+    <script defer src="/js/cookie-banner.js"></script>
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/main.css" />
+    <!-- Structured data: LocalBusiness -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Preschool",
+        "name": "Klaipėdos lopšelis-darželis „Giliukas“ – „Gintarėlio“ skyrius",
+        "alternateName": "Darželis „Gintarėlis“",
+        "description": "Jūros įkvėptas ikimokyklinio ugdymo centras Klaipėdoje, Giruliuose.",
+        "url": "https://gintarelis.lt/",
+        "telephone": "+37046420039",
+        "email": "gintarelisdarzelis@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Girulių pl. 1",
+          "addressLocality": "Klaipėda",
+          "postalCode": "LT-92282",
+          "addressCountry": "LT"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "55.7375",
+          "longitude": "21.1236"
+        },
+        "openingHours": "Mo-Fr 07:00-18:30",
+        "sameAs": [
+          "https://www.facebook.com/people/Klaip%C4%97dos-lop%C5%A1elis-dar%C5%BEelis-Giliukas-Gintar%C4%97lio-skyrius/61583433928058/"
+        ],
+        "image": "https://gintarelis.lt/img/og-image.jpg"
+      }
+    </script>
   </head>
 
-  <body class="text-[#2596be]">
-    <<!-- ================= HEADER ================= -->
-    <header
-      id="mainHeader"
-      class="fixed top-0 left-0 w-full z-50 bg-white/30 backdrop-blur-md border-b border-white/30 transition-all duration-300"
-    >
-      <div
-        class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
-      >
-        <!-- LOGO -->
-        <a href="./" class="flex items-center gap-3 group">
-          <img
-            src="./img/galutinis-gintarelis-logo.png"
-            class="h-12 w-12 object-contain"
-          />
-          <h1
-            class="hidden min-[250px]:block font-bold text-lg transition group-hover:text-[#005f88]"
-          >
-            Klaipėdos „Gintarėlis“
-          </h1>
-        </a>
+  <body class="bg-white text-slate-800">
+    <a href="#main" class="skip-link">Pereiti prie turinio</a>
 
-        <!-- DESKTOP NAV -->
-        <nav class="hidden md:flex gap-8 font-bold">
-          <a
-            href="#naujienos"
-            class="relative group font-bold text-[#2596be] transition-colors hover:text-[#005f88]"
-          >
-            Naujienos
-            <span
-              class="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#005f88] transition-all duration-300 group-hover:w-full"
-            >
-            </span>
-          </a>
-
-          <a
-            href="#apie"
-            class="relative group font-bold text-[#2596be] transition-colors hover:text-[#005f88]"
-          >
-            Apie mus
-            <span
-              class="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#005f88] transition-all duration-300 group-hover:w-full"
-            >
-            </span>
-          </a>
-
-          <a
-            href="#ugdymas"
-            class="relative group font-bold text-[#2596be] transition-colors hover:text-[#005f88]"
-          >
-            Ugdymas
-            <span
-              class="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#005f88] transition-all duration-300 group-hover:w-full"
-            >
-            </span>
-          </a>
-
-          <a
-            href="#galerija"
-            class="relative group font-bold text-[#2596be] transition-colors hover:text-[#005f88]"
-          >
-            Galerija
-            <span
-              class="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#005f88] transition-all duration-300 group-hover:w-full"
-            >
-            </span>
-          </a>
-
-          <a
-            href="#kontaktai"
-            class="relative group font-bold text-[#2596be] transition-colors hover:text-[#005f88]"
-          >
-            Kontaktai
-            <span
-              class="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#005f88] transition-all duration-300 group-hover:w-full"
-            >
-            </span>
-          </a>
-        </nav>
-
-        <!-- BURGER -->
-        <button
-          id="burger"
-          class="md:hidden flex flex-col gap-1.5 p-2"
-          aria-label="Menu"
-        >
-          <span class="burger-line"></span>
-          <span class="burger-line"></span>
-          <span class="burger-line"></span>
-        </button>
-      </div>
-
-      <!-- MOBILE MENU -->
-      <nav
-        id="mobileMenu"
-        class="md:hidden overflow-hidden max-h-0 opacity-0 transition-all duration-300 bg-white/90 backdrop-blur border-t"
-      >
-        <div class="px-6 py-6 flex flex-col gap-4 font-bold text-center">
-          <a href="#naujienos" class="mobile-btn" onclick="closeMobile()"
-            >Naujienos</a
-          >
-          <a href="#apie" class="mobile-btn" onclick="closeMobile()"
-            >Apie mus</a
-          >
-          <a href="#ugdymas" class="mobile-btn" onclick="closeMobile()"
-            >Ugdymas</a
-          >
-          <a href="#galerija" class="mobile-btn" onclick="closeMobile()"
-            >Galerija</a
-          >
-          <a href="#kontaktai" class="mobile-btn" onclick="closeMobile()"
-            >Kontaktai</a
-          >
-        </div>
-      </nav>
+    <header id="mainHeader" class="fixed top-0 left-0 w-full z-50 bg-white/40 backdrop-blur-md border-b border-white/30">
+      <!-- Header rendered by JS -->
     </header>
 
-    <!-- ================= HERO ================= -->
-    <section id="hero" class="relative h-screen w-full overflow-hidden pt-24">
-      <video
-        autoplay
-        loop
-        muted
-        playsinline
-        class="absolute inset-0 w-full h-full object-cover"
-      >
-        <source src="video/osia-jura.mp4" type="video/mp4" />
-      </video>
-
-      <div class="absolute inset-0 bg-black/20"></div>
-
-      <div
-        class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4"
-      >
-        <h1 class="text-4xl md:text-6xl font-extrabold mb-4 animate-fadeIn">
-          Klaipėdos darželis <span class="text-yellow-300">„Gintarėlis“</span>
-        </h1>
-        <p class="text-lg md:text-2xl max-w-2xl mb-6 animate-fadeIn delay-200">
-          Kur vaikystė suspindi kaip gintaras.
-        </p>
-      </div>
-    </section>
-
-    <!-- NAUJIENOS SEKCIjA -->
-    <section
-      id="naujienos"
-      class="relative py-20 px-6 bg-gradient-to-b from-amber-50/80 via-amber-100/60 to-amber-50/80 overflow-hidden"
-    >
-      <h2 class="text-4xl font-extrabold text-center text-[#005f88] mb-10">
-        Naujienos
-      </h2>
-
-      <div
-        id="newsContainer"
-        class="max-w-6xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-3"
-      >
-        <!-- čia bus įkeltos naujienos iš WordPress -->
-      </div>
-    </section>
-
-    <div
-      class="bg-fixed bg-center bg-cover"
-      style="background-image: url('img/gamta-paveiksliukas.jpeg')"
-    >
-      <div class="absolute inset-0 bg-white/20"></div>
-
-      <!-- APIE MUS SEKCIJA -->
-      <section
-        id="apie"
-        class="relative py-20 px-6 bg-gradient-to-b from-amber-50/80 via-amber-100/60 to-amber-50/80 overflow-hidden"
-      >
-        <!-- Tekstinis centrinis blokas -->
-        <div
-          class="relative max-w-6xl mx-auto text-center text-[#005f88] mb-12 z-10"
-        >
-          <h2 class="text-4xl font-extrabold mb-4">Apie mus</h2>
-
-          <p class="text-lg font-bold max-w-3xl mx-auto mb-4">
-            Darželis „Gintarėlis“ įsikūręs vienoje gražiausių Klaipėdos vietų –
-            Giruliuose, visai šalia jūros. Aplinką supa didingi pušynai ir rami,
-            vaikams saugi gamtos atmosfera.
-          </p>
-
-          <p class="text-lg font-bold max-w-3xl mx-auto mb-4">
-            Mūsų pedagogai – aukščiausio lygio specialistai, kurie kasdien
-            rūpinasi emociniu, kūrybiniu ir pažintiniu vaikų vystymusi.
-          </p>
-
-          <p class="text-lg font-bold max-w-3xl mx-auto">
-            „Gintarėlis“ – vieta, kur kasdien skamba vaikų juokas, smalsūs
-            klausimai ir draugiškas šurmulys.
-          </p>
-        </div>
+    <main id="main">
+      <section id="hero" class="relative h-screen w-full overflow-hidden" aria-label="Pagrindinis pasiūlymas">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/images/poster.webp" class="absolute inset-0 w-full h-full object-cover" aria-hidden="true">
+          <source src="assets/video/hero.webm" type="video/webm">
+          <source src="assets/video/hero.mp4" type="video/mp4">
+        </video>
+        <div id="heroOverlay" class="absolute inset-0 z-[1]" aria-hidden="true"></div>
+        <div class="hero-bottom-fade absolute inset-x-0 bottom-0 h-1/3 pointer-events-none z-[2]" aria-hidden="true"></div>
+        <div class="hero-content relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4 sm:px-6"></div>
       </section>
 
-      <!-- UGDYMAS -->
-      <section
-        id="ugdymas"
-        class="relative inset-0 bg-gradient-to-b from-amber-50/80 via-amber-100/60 to-amber-50/80 py-20 px-6 overflow-hidden"
-      >
-        <!-- Turinio konteineris su z-index, kad būtų virš gradient/nuotraukos -->
-        <div class="relative max-w-6xl mx-auto text-center mb-12 z-10">
-          <h2 class="text-4xl font-extrabold text-amber-700 mb-4">
-            Gintarėlio darželio ugdymo programa
-          </h2>
-          <p class="text-lg font-bold text-amber-700 max-w-3xl mx-auto">
-            Gintarėlio darželis – vieta, kur vaikai auga saugiai, žaismingai ir
-            natūraliai, tarsi maži gintarėliai pajūrio smėlyje. Ugdymas
-            grindžiamas nacionalinėmis ikimokyklinio ir priešmokyklinio ugdymo
-            gairėmis, o kasdienybė pilna kūrybiškų atradimų, žaidimų ir smalsių
-            patirčių.
-          </p>
-        </div>
-
-        <!-- GRID -->
-        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          <!-- Ikimokyklinis ugdymas -->
-          <div
-            class="group bg-white/40 backdrop-blur-xl border border-white/20 p-8 rounded-3xl shadow-lg transition-transform duration-500 hover:scale-[1.03] hover:shadow-2xl"
-          >
-            <h3 class="text-2xl font-extrabold text-[#005f88] mb-4">
-              Ikimokyklinis ugdymas
-            </h3>
-            <p class="text-[#005f88]/95 font-semibold leading-relaxed">
-              Ikimokyklinio amžiaus vaikai mokosi per žaidimą, tyrinėjimus ir
-              patirtį. Mūsų aplinka padeda jiems:
-            </p>
-            <ul class="mt-4 space-y-2 text-[#005f88]/90 list-none">
-              <li>Pažinti save, savo jausmus ir gebėjimus;</li>
-              <li>Drąsiai bendrauti ir bendradarbiauti;</li>
-              <li>Tyrinėti gamtą ir socialinį pasaulį;</li>
-              <li>Kurti, eksperimentuoti, išbandyti įvairias veiklas;</li>
-              <li>
-                Ugdyti kalbą, vaizduotę, loginį mąstymą ir savarankiškumą.
-              </li>
-            </ul>
-            <p class="mt-4 text-[#005f88]/90 font-semibold">
-              Grupėse vyrauja jaukumas, ritmas, sensoriniai žaidimai, dailės ir
-              muzikos veiklos.
-            </p>
-          </div>
-
-          <!-- Priešmokyklinis ugdymas -->
-          <div
-            class="group bg-white/40 backdrop-blur-xl border border-white/20 p-8 rounded-3xl shadow-lg transition-transform duration-500 hover:scale-[1.03] hover:shadow-2xl"
-          >
-            <h3 class="text-2xl font-extrabold text-[#005f88] mb-4">
-              Priešmokyklinis ugdymas
-            </h3>
-            <p class="text-[#005f88]/95 font-semibold leading-relaxed">
-              Priešmokyklinė grupė – pasiruošimo mokyklai etapas, vykstantis
-              žaismingai ir be įtampos. Programa apima:
-            </p>
-            <ul class="mt-4 space-y-2 text-[#005f88]/90 list-none">
-              <li>Kalbinių gebėjimų ugdymą;</li>
-              <li>Matematinių sąvokų pažinimą;</li>
-              <li>Gamtos reiškinių tyrinėjimus ir STEAM eksperimentus;</li>
-              <li>Socialines–emocines kompetencijas;</li>
-              <li>Savarankiškumo ir atsakomybės ugdymą;</li>
-              <li>Kūrybinę raišką – muziką, dailę, vaidybą.</li>
-            </ul>
-            <p class="mt-4 text-[#005f88]/90 font-semibold">
-              Tikslas – kad vaikas į mokyklą žengtų drąsus, smalsus ir
-              pasiruošęs.
-            </p>
-          </div>
-
-          <!-- Gintarėlio vertybės -->
-          <div
-            class="group bg-white/40 backdrop-blur-xl border border-white/20 p-8 rounded-3xl shadow-lg transition-transform duration-500 hover:scale-[1.03] hover:shadow-2xl"
-          >
-            <h3 class="text-2xl font-extrabold text-[#005f88] mb-4">
-              Gintarėlio vertybės
-            </h3>
-            <ul class="space-y-3 text-[#005f88]/90 list-none font-semibold">
-              <li>Saugumas ir pagarba vaikui.</li>
-              <li>Individualizuotas ugdymas.</li>
-              <li>Kūrybiškumas ir žaismingas patyrimas.</li>
-              <li>Tėvų ir pedagogų partnerystė.</li>
-              <li>Judesys ir ryšys su gamta.</li>
-            </ul>
-            <p class="mt-4 text-[#005f88]/90 font-semibold">
-              Mūsų darželis kuria aplinką, kur kiekvienas vaikas spindi sava
-              šviesa.
-            </p>
-          </div>
-        </div>
+      <section id="apie" class="relative bg-white" aria-labelledby="apie-title">
+        <!-- Why us rendered by JS -->
       </section>
 
-      <!-- GALERIJA (slider) -->
-      <section
-        id="galerija"
-        class="relative py-20 px-6 bg-gradient-to-b from-amber-100 via-amber-50 to-white"
-      >
-        <div class="max-w-6xl mx-auto">
-          <h2 class="text-3xl text-center font-extrabold text-amber-700 mb-6">
-            Galerija
-          </h2>
-
-          <!-- SLIDER WRAPPER -->
-          <div
-            class="relative w-full overflow-hidden rounded-xl shadow-lg bg-white/70"
-          >
-            <div
-              id="slider"
-              class="flex transition-transform duration-700 will-change-transform"
-            ></div>
-
-            <!-- nav arrows -->
-            <button
-              id="prev"
-              class="absolute top-1/2 left-4 -translate-y-1/2 bg-white/70 p-3 rounded-full shadow"
-            >
-              ‹
-            </button>
-            <button
-              id="next"
-              class="absolute top-1/2 right-4 -translate-y-1/2 bg-white/70 p-3 rounded-full shadow"
-            >
-              ›
-            </button>
-          </div>
-
-          <!-- dots -->
-          <div id="dots" class="flex justify-center gap-2 mt-4"></div>
-
-          <!-- WP Gallery grid fallback -->
-          <div
-            id="wp-gallery"
-            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10"
-          ></div>
-        </div>
+      <section id="ugdymas" class="relative bg-gradient-to-b from-[#f0f9ff] to-white" aria-labelledby="ugdymas-title">
+        <!-- Philosophy rendered by JS -->
       </section>
 
-      <!-- KONTAKTAI -->
-      <section
-        id="kontaktai"
-        class="max-w-12xl mx-auto py-20 px-6 bg-[#d8ecff]"
-      >
-        <h2 class="text-3xl font-bold text-[#005f88] mb-6">Kontaktai</h2>
-        <p class="text-lg">Telefonas: <strong>046420039</strong></p>
-        <p class="text-lg">El. paštas: <strong>gintarelisdarzelis@gmail.com</strong></p>
-        <p class="text-lg">Adresas: <strong>Girulių pl. 1, Klaipėda</strong></p>
+      <section id="bureliai" class="relative bg-white" aria-labelledby="bureliai-title">
+        <!-- Clubs rendered by JS -->
       </section>
 
-      <!-- FOOTER (4 columns) -->
-      <footer class="bg-[#005f88] text-white py-16">
-        <div
-          class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 px-6 text-center md:text-left"
-        >
-          <div>
-            <h2 class="text-xl font-bold mb-3 text-center md:text-left">
-              Informacija
-            </h2>
-            <ul class="space-y-2 flex flex-col items-center md:items-start">
-              <li>
-                <a
-                  href="#apie"
-                  class="footer-link text-white text-base px-3 py-1 rounded-md hover:text-blue-400 hover:font-bold hover:scale-110 hover:-translate-y-1 hover:shadow-xl transition duration-300 ease-in-out"
-                  >Apie mus</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#galerija"
-                  class="footer-link text-white text-base px-3 py-1 rounded-md hover:text-blue-400 hover:font-bold hover:scale-110 hover:-translate-y-1 hover:shadow-xl transition duration-300 ease-in-out"
-                  >Galerija</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#kontaktai"
-                  class="footer-link text-white text-base px-3 py-1 rounded-md hover:text-blue-400 hover:font-bold hover:scale-110 hover:-translate-y-1 hover:shadow-xl transition duration-300 ease-in-out"
-                  >Kontaktai</a
-                >
-              </li>
-            </ul>
-          </div>
+      <section id="istorija" class="relative bg-gradient-to-b from-[#fffbeb] to-white" aria-labelledby="istorija-title">
+        <!-- History rendered by JS -->
+      </section>
 
-          <div>
-            <h2 class="text-xl font-bold mb-3">Kita</h2>
-            <ul class="space-y-2 flex flex-col items-center md:items-start">
-              <li>
-                <a
-                  href="#ugdymas"
-                  class="text-white text-base px-3 py-1 rounded-md hover:text-blue-400 hover:font-bold hover:scale-110 hover:-translate-y-1 hover:shadow-xl transition duration-300 ease-in-out"
-                  >Ugdymas</a
-                >
-              </li>
-              <li>
-                <button
-                  id="privacyBtn"
-                  class="text-white text-base px-3 py-1 rounded-md hover:text-blue-400 hover:font-bold hover:scale-110 hover:-translate-y-1 hover:shadow-xl transition duration-300 ease-in-out"
-                >
-                  Privatumo politika
-                </button>
-              </li>
-            </ul>
-          </div>
+      <section id="atsiliepimai" class="relative bg-gradient-to-b from-[#f0f9ff] to-white" aria-labelledby="atsiliepimai-title">
+        <!-- Testimonials + reviews rendered by JS -->
+      </section>
 
-          <div>
-            <h2 class="text-xl font-bold mb-3">Kontaktai</h2>
-            <ul class="space-y-2">
-              <li>046420039</li>
-              <li>gintarelisdarzelis@gmail.com</li>
-              <li>Girulių pl. 1, Klaipėda</li>
-            </ul>
-          </div>
+      <section id="galerija" class="relative bg-white" aria-labelledby="galerija-title">
+        <!-- Gallery rendered by JS -->
+      </section>
 
-          <div>
-            <h2 class="text-xl font-bold mb-3">Mus sekite</h2>
-            <div class="flex justify-center md:justify-start gap-6 text-3xl">
-              <a
-                href="https://www.facebook.com/profile.php?id=61583433928058"
-                class="text-white hover:text-blue-300 hover:scale-125 transition-all duration-300"
-              >
-                <i class="fa-brands fa-facebook"></i>
-              </a>
+      <section id="kainos" class="relative bg-gradient-to-b from-[#fffbeb] to-white" aria-labelledby="kainos-title">
+        <!-- Prices rendered by JS -->
+      </section>
 
-              <a
-                href="#"
-                class="text-white hover:text-red-400 hover:scale-125 transition-all"
-              >
-                <i class="fa-brands fa-youtube"></i>
-              </a>
+      <section id="naujienos" class="relative bg-white" aria-labelledby="naujienos-title">
+        <!-- News rendered by JS -->
+      </section>
 
-              <a
-                href="#"
-                class="text-white hover:text-pink-400 hover:scale-125 transition-all"
-              >
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <section id="apsilankymas" class="relative" aria-labelledby="apsilankymas-title">
+        <!-- Visit us rendered by JS -->
+      </section>
+
+      <section id="kontaktai" class="relative bg-white" aria-labelledby="kontaktai-title">
+        <!-- Contacts rendered by JS -->
+      </section>
+    </main>
+
+    <footer id="footer" class="bg-[#005f88] text-white">
+      <!-- Footer rendered by JS -->
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="hidden fixed inset-0 z-[60] flex items-center justify-center bg-black/90 p-4" role="dialog" aria-modal="true" aria-label="Nuotraukos peržiūra">
+      <button id="closeLightbox" class="absolute top-4 right-4 text-white text-4xl leading-none hover:text-amber-300" aria-label="Uždaryti">&times;</button>
+      <p id="lightboxCounter" class="absolute top-5 left-5 text-white/80 text-sm font-semibold" aria-hidden="true"></p>
+      <button id="lightboxPrev" class="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 text-white text-5xl leading-none hover:text-amber-300 px-3 py-4" aria-label="Ankstesnė nuotrauka">&lsaquo;</button>
+      <button id="lightboxNext" class="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 text-white text-5xl leading-none hover:text-amber-300 px-3 py-4" aria-label="Kita nuotrauka">&rsaquo;</button>
+      <img id="lightboxImg" src="" alt="" class="max-h-[90vh] max-w-full rounded-2xl shadow-2xl">
+      <p id="lightboxCaption" class="absolute bottom-6 left-0 right-0 text-center text-white text-lg font-semibold px-4"></p>
     </div>
 
-    <div class="bg-[#003f5c] text-white text-center py-4">
-      Visos teisės saugomos © 2025 Gintarėlio darželis Klaipėdoje
-    </div>
-
-    <!-- PRIVACY MODAL -->
-    <div
-      id="privacyModal"
-      class="fixed inset-0 bg-black/50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300 z-50"
-    >
-      <div
-        class="bg-white rounded-xl max-w-3xl w-11/12 md:w-2/3 p-6 relative transform scale-95 transition-transform duration-300"
-      >
-        <button
-          id="closePrivacy"
-          class="absolute top-3 right-3 text-gray-600 hover:text-gray-900 text-2xl font-bold"
-        >
-          &times;
-        </button>
-        <h2 class="text-2xl font-bold mb-4 text-[#005f88]">
-          Privatumo politika
-        </h2>
-        <div class="max-h-[70vh] overflow-y-auto space-y-4 text-gray-800">
-          <p>
-            Gerbiame jūsų privatumą ir įsipareigojame saugoti asmens duomenis.
-          </p>
-          <p>
-            Šioje svetainėje renkama tik būtina informacija: vardas, el. paštas,
-            kontaktinė informacija, jei ją pateikiate per kontaktinę formą.
-          </p>
-          <p>
-            Jūsų duomenys naudojami tik tam, kad galėtume atsakyti į jūsų
-            užklausas ir suteikti paslaugas.
-          </p>
-          <p>
-            Mes nenaudojame jūsų duomenų rinkodarai trečiųjų šalių įrankiais be
-            jūsų sutikimo.
-          </p>
-          <p>
-            Jūs turite teisę bet kada paprašyti ištrinti jūsų pateiktus duomenis
-            arba atsisakyti jų naudojimo.
-          </p>
-          <p>
-            Jei turite klausimų apie privatumo politiką, susisiekite su mumis
-            el. paštu: <strong>info@gintarelis.lt</strong>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- SCRIPTS -->
-    <script src="./js/menu.js" defer></script>
-    <script src="./js/news.js" defer></script>
-    <script src="./js/privacy.js" defer></script>
-    <script src="./js/intersectionObserver.js" defer></script>
-    <script type="module" src="./js/education.js" defer></script>
+    <script type="module" src="/js/app.js"></script>
   </body>
 </html>

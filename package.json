@@ -1,0 +1,21 @@
+{
+  "name": "gintarelis-website",
+  "version": "2.0.0",
+  "description": "Production-ready website for Klaipėdos lopšelis-darželis „Giliukas“ – „Gintarėlio“ skyrius",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "kindergarten",
+    "website",
+    "gintarelis",
+    "klaipeda"
+  ],
+  "author": "Klaipėdos lopšelis-darželis „Giliukas“",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

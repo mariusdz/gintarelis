@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gintarelis.lt/sitemap.xml
