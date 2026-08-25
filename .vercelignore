@@ -1,0 +1,9 @@
+# Server internals, dependencies, tooling and content drafts
+# (mirrors the blocklist in server.js)
+node_modules
+tools
+scripts
+data/source
+server.js
+package.json
+package-lock.json

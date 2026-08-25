@@ -24,3 +24,4 @@ video/
 .vscode/
 .idea/
 *.swp
+.vercel
