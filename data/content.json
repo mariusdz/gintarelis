@@ -4,8 +4,8 @@
     "description": "Klaipėdos lopšelio-darželio „Giliukas“ „Gintarėlio“ skyrius – jūros įkvėptas darželis Giruliuose. Saugus, šiltas ir profesionalus ikimokyklinis ugdymas.",
     "keywords": "darželis Klaipėdoje, Gintarėlis, ikimokyklinis ugdymas, darželis Giruliuose, lopšelis-darželis Giliukas",
     "author": "Klaipėdos lopšelis-darželis „Giliukas“",
-    "canonical": "https://gintarelis.lt/",
-    "url": "https://gintarelis.lt/",
+    "canonical": "https://klaipedosgintarelis.lt/",
+    "url": "https://klaipedosgintarelis.lt/",
     "locale": "lt_LT",
     "ogImage": "/img/og-image.jpg",
     "twitterCard": "summary_large_image",
@@ -16,24 +16,12 @@
     "siteName": "Klaipėdos „Gintarėlis“",
     "nav": [
       {
-        "label": "Naujienos",
-        "href": "#naujienos"
-      },
-      {
         "label": "Ugdymas",
         "href": "#ugdymas"
       },
       {
-        "label": "Būreliai",
-        "href": "#bureliai"
-      },
-      {
-        "label": "Istorija",
-        "href": "#istorija"
-      },
-      {
-        "label": "Galerija",
-        "href": "#galerija"
+        "label": "Maitinimas",
+        "href": "#kainos"
       },
       {
         "label": "Kontaktai",
@@ -44,7 +32,7 @@
   "hero": {
     "enabled": true,
     "headline": "Jūros įkvėpti, miško ramybėje, kur vaikystė suspindi kaip gintaras.",
-    "subheadline": "Klaipėdos lopšelio-darželio „Giliukas“ „Gintarėlio“ skyrius – nuo 1960 metų augantis kartu su jūra, pušimis ir vaikų juoku.",
+    "subheadline": "",
     "backgroundImage": "/assets/images/poster.webp",
     "backgroundVideo": "/assets/video/hero.mp4",
     "overlay": "rgba(0, 60, 90, 0.35)",
@@ -64,82 +52,21 @@
     ]
   },
   "whyUs": {
-    "enabled": false,
-    "title": "Kodėl tėvai renkasi mus?",
-    "intro": "„Gintarėlis“ – ne tik darželis. Tai vieta, kur vaikai kasdien atranda, kuria, tyrinėja ir auga drąsūs, smalsūs bei laimingi.",
-    "items": [
-      {
-        "icon": "fa-solid fa-chalkboard-user",
-        "title": "Patyrę pedagogai",
-        "text": "Mūsų komanda – kvalifikuoti ikimokyklinio ugdymo specialistai, logopedai, menų ir sporto pedagogai, kasdien besirūpinantys kiekvieno vaiko gerove."
-      },
-      {
-        "icon": "fa-solid fa-palette",
-        "title": "Ugdymo veiklos",
-        "text": "Integruotas ugdymas per žaidimą, meną, gamtos tyrinėjimus, STEAM ir patirtines veiklas padeda vaikams pažinti pasaulį natūraliai ir džiaugsmingai."
-      },
-      {
-        "icon": "fa-solid fa-graduation-cap",
-        "title": "Pasirengimas mokyklai",
-        "text": "Priešmokyklinėje grupėje vaikai žaismingai ugdo kalbą, matematinį mąstymą, socialines ir emocines kompetencijas – be streso ir įtampos."
-      },
-      {
-        "icon": "fa-solid fa-users",
-        "title": "Maža bendruomenė",
-        "text": "Mažos grupės, šilti tarpusavio ryšiai ir atvira partnerystė su šeima – kiekvienas vaikas čia jaučiasi matomas, girdimas ir mylimas."
-      },
-      {
-        "icon": "fa-solid fa-water",
-        "title": "Augame prie jūros",
-        "text": "Gamtos prieglobstyje – miškas, kopos, jūros ošimas – vaikai kasdien stiprina sveikatą, ugdo pastabumą ir meilę aplinkai."
-      }
+    "enabled": true,
+    "title": "",
+    "intro": "",
+    "paragraphs": [
+      "Esame bendruomenė, kurią kuria pedagogai, nuoširdžiai mylintys savo darbą, vaikai, besidžiaugiantys vaikyste, ir šeimos, savo vaikus mums patikinčios ne vieną kartą.",
+      "„Gintarėlis“ apjungia žmones, kurie nuolat tobulėja, mokosi ir kuria šiltą, bendradarbiavimu grįstą aplinką, kurioje vaikai jaučiasi tarsi antroje šeimoje. Prisitaikydami prie nuolat kintančios visuomenės, ugdymo pokyčių ir šeimų poreikių, nuolat atnaujiname savo veiklą, išlaikydami tai, kas svarbiausia – vaikų gerovę, saugumą ir prasmingą ugdymosi patirtį."
     ],
-    "highlight": {
-      "icon": "fa-solid fa-ship",
-      "title": "Unikali architektūra",
-      "text": "Pačios patalpos turi savo istoriją – unikalią architektūrą suprojektavo jūrininkai, todėl erdvės alsuoja autentiškumu, šviesa ir vaikišku įdomumu."
-    }
+    "items": [],
+    "highlight": null
   },
   "philosophy": {
     "enabled": true,
     "title": "Ugdymo filosofija",
     "intro": "Mūsų ugdymas remiasi nacionalinėmis ikimokyklinio ir priešmokyklinio ugdymo gairėmis, kurios integruoja žaidimą, patyrimą, kūrybiškumą ir pagarbą vaiko individualumui.",
-    "programs": [
-      {
-        "title": "Ikimokyklinis ugdymas",
-        "text": "Vaikai mokosi per žaidimą, tyrinėjimus ir patirtį. Grupėse vyrauja jaukumas, ritmas, sensoriniai žaidimai, dailės ir muzikos veiklos.",
-        "items": [
-          "Pažinti save, savo jausmus ir gebėjimus",
-          "Drąsiai bendrauti ir bendradarbiauti",
-          "Tyrinėti gamtą ir socialinį pasaulį",
-          "Kurti, eksperimentuoti, išbandyti veiklas",
-          "Ugdyti kalbą, vaizduotę, loginį mąstymą ir savarankiškumą"
-        ]
-      },
-      {
-        "title": "Priešmokyklinis ugdymas",
-        "text": "Pasiruošimo mokyklai etapas, vykstantis žaismingai ir be įtampos. Tikslas – kad vaikas į mokyklą žengtų drąsus, smalsus ir pasiruošęs.",
-        "items": [
-          "Kalbinių gebėjimų ugdymas",
-          "Matematinių sąvokų pažinimas",
-          "Gamtos reiškinių tyrinėjimai ir STEAM eksperimentai",
-          "Socialinės–emocinės kompetencijos",
-          "Savarankiškumo ir atsakomybės ugdymas",
-          "Kūrybinė raiška – muzika, dailė, vaidyba"
-        ]
-      },
-      {
-        "title": "Gintarėlio vertybės",
-        "text": "Visą kasdienybę vainikuoja bendros vertybės, kuriomis vadovaujasi visa bendruomenė.",
-        "items": [
-          "Saugumas ir pagarba vaikui",
-          "Individualizuotas ugdymas",
-          "Kūrybiškumas ir žaismingas patyrimas",
-          "Tėvų ir pedagogų partnerystė",
-          "Judesys ir ryšys su gamta"
-        ]
-      }
-    ],
+    "programs": [],
     "pdfs": [
       {
         "label": "Ikimokyklinio ugdymo programa",
@@ -154,121 +81,61 @@
     ],
     "achievementAreas": {
       "title": "18 ugdymo(si) pasiekimų sričių",
-      "intro": "Remdamiesi priešmokyklinio ugdymo programa, sistemingai plėtojame visas vaiko kompetencijas – nuo kalbos ir meno iki pilietiškumo ir sveikos gyvensenos.",
+      "intro": "",
       "items": [
-        {
-          "title": "Gamtamokslinis tyrinėjimas",
-          "description": "Domėdamasis, aiškindamasis, stebėdamas, žaisdamas, visais pojūčiais patirdamas, spontaniškai ir tikslingai tyrinėdamas pažins ir savais žodžiais apibūdins artimiausios aplinkos gamtos objektus, reiškinius, jų įvairovę, požymius, kaitą."
-        },
-        {
-          "title": "Gamtamokslinis komunikavimas",
-          "description": "Remdamasis savo patirtimi ir vartodamas paprasčiausias gamtamokslines sąvokas aptars artimiausioje aplinkoje esančius gamtos objektus."
-        },
-        {
-          "title": "Žmogaus ir aplinkos dermė",
-          "description": "Bendrose veiklose įgis supratimą ir savais žodžiais apibūdins save kaip gamtos dalį, žmogaus poreikius ir jo daromą poveikį gamtai."
-        },
-        {
-          "title": "Klausymas, kalbos suvokimas ir kalbėjimas",
-          "description": "Bendraudamas sukaups dėmesį, klausysis draugų ir suaugusiųjų."
-        },
-        {
-          "title": "Skaitymo ir rašymo pradmenys",
-          "description": "Žaisdamas, stebėdamas, veikdamas vienas ar drauge su kitais tyrinės kalbą, pastebės garsų panašumus ir skirtumus, susies garsus su raidėmis."
-        },
-        {
-          "title": "Matematinis samprotavimas",
-          "description": "Žaisdamas, tyrinėdamas, veikdamas su aplinkos daiktais, vienas ar bendradarbiaudamas su kitais atliks kasdienėse situacijose pritaikomas matematines procedūras: skaičiuoja pirmyn ir atgal, naudodamasis aplinkos daiktais atliks paprastus sudėties veiksmus, matuos, palygins, grupuos, klasifikuos."
-        },
-        {
-          "title": "Matematinė komunikacija",
-          "description": "Kasdienėse gerai pažįstamose situacijose, žaisdamas, tyrinėdamas atpažįsta įvairiais būdais (žodžiais, garsais, vaizdais) pateiktą matematinę informaciją; atsako į klausimus, dalinasi įspūdžiais, papasakoja, naudodamas dažniausiai vartojamas matematines sąvokas, simbolius. Vienas ar bendradarbiaudamas su kitais, savo pasirinktomis ar pasiūlytomis priemonėmis ir būdais (žodžiu, garsu, vaizdu), simboliais kuria ir pateikia artimosios aplinkos aiškią matematinę informaciją: renka, fiksuoja, vaizdinėmis priemonėmis iliustruoja, pasirinktu būdu pristato."
-        },
-        {
-          "title": "Kūrybiškas matematinių problemų sprendimas",
-          "description": "Žaisdamas, bendradarbiaudamas, aiškindamasis, stebėdamas, keldamas paprastus klausimus tyrinėja kasdienes matematines situacijas: spontaniškai siūlo idėjas, numato 1–2 žingsnių pažįstamos situacijos sprendimo eigą, veikloje taiko paties pasirinktus ar pasiūlytus situacijos sprendimo būdus ir priemones, dalinasi įspūdžiais apie veiklos eigą, rezultatus, atradimus."
-        },
-        {
-          "title": "Meninė (dailės, šokio, teatro, muzikos) raiška",
-          "description": "Žaisdamas, stebėdamas, tyrinėdamas, kurdamas ir kitų veiklų metu dalinsis savo menine raiška su kitais: atliks ar pavaizduos įvairius nesudėtingus meno kūrinius vienas, poroje ar grupėje, tinkamai ir (arba) tikslingai tam pasirinkęs jam žinomas ar pasiūlytas meninės raiškos priemones, o taip pat pasirinktais ar pasiūlytais būdais improvizuos, konstruos, komponuos, taikys įvairias kūrybines technikas."
-        },
-        {
-          "title": "Meno (dailės, šokio, teatro, muzikos) supratimas ir vertinimas",
-          "description": "Žaidimų ir kitų veiklų metu pažins įvairių stilių bei žanrų kūrinius, bandys atskirti šiuolaikinius ir senesnių laikų meno kūrinius, savaip ar pagal pateiktus kriterijus aptars aiškiausiai perteiktus meno kūrinio elementus, naudotas raiškos priemones, lengvai atpažįstamą techniką, apmąstys įgytą meninę patirtį, išsakys savo nuomonę apie savo ir kitų meno kūrinius, ugdysis grožio ir estetikos sampratas."
-        },
-        {
-          "title": "Meno (dailės, šokio, teatro, muzikos) reiškinių taikymo bei paskirties ir kontekstų pažinimas",
-          "description": "Žaisdamas, tyrinėdamas, bendradarbiaudamas aiškinsis ir aptars lengviausiai nusakomas meno paskirtis bei kontekstus."
-        },
-        {
-          "title": "Savęs ir kitų pažinimas, atsakingas elgesys",
-          "description": "Žaisdamas, tyrinėdamas, stebėdamas, bendradarbiaudamas, aptardamas kasdienes situacijas atpažins ir išreikš pagrindines emocijas (džiaugsmą, liūdesį, pyktį, baimę ir kt.), jausmus, aiškinsis būdus, padedančius pasijusti geriau, ieškos tinkamų sprendimų emocinių, elgesio ir kitų sunkumų įveikai, stengsis laikytis susitarimų, susitartų ir saugaus elgesio taisyklių artimojoje aplinkoje (pvz., grupėje, žaidimų aikštelėje) ir už ugdymo įstaigos ribų (pvz., autobuse, gatvėje)."
-        },
-        {
-          "title": "Asmens sveikatos stiprinimas",
-          "description": "Žaisdamas, tyrinėdamas, stebėdamas, bendradarbiaudamas, dalyvaudamas kasdienėse situacijose aiškinsis sveikos gyvensenos svarbą ir bandys jos laikytis: sveikai maitintis, būti fiziškai aktyvus, laikytis aktyvios veiklos ir poilsio režimo, kai turi pasirinkimo galimybę. Veikdamas vienas ar drauge su kitais pažįstamose situacijose saugos savo ir kitų gyvybę ir sveikatą, ieškos pagalbos nelaimės ar ligos atveju."
-        },
-        {
-          "title": "Judėjimo gebėjimų plėtojimas",
-          "description": "Žaisdamas, bendradarbiaudamas, spontaniškai ar tikslingai judėdamas, plėtoja pagrindinius judėjimo gebėjimus (bėga, šokinėja, gaudo ir kt.), atkartoja, kuria judesių derinius, išbando, tyrinėja kūno galimybes, stengiasi kontroliuoti savo laikyseną ir kvėpavimą."
-        },
-        {
-          "title": "Savistaba ir sąveika su kitais judant",
-          "description": "Aktyviai judėdamas išsiaiškina, kokią įtaką fizinis aktyvumas turi sveikatai ir gerai savijautai."
-        },
-        {
-          "title": "Gyvename kartu",
-          "description": "Žaisdamas, tyrinėdamas, per kasdienes buvimo tarp žmonių, bendravimo ir bendradarbiavimo patirtis pažins socialinius darinius: šeimą, bendraamžių grupę, ugdymo įstaigos bendruomenę, lietuvių tautą, šalia gyvenančias tautines bendruomenes ir valstybę. Stebėdamas, dalyvaudamas įvairiose veiklose ugdysis toleranciją socialinei, ekonominei, kultūrinei, rasinei, religinei, lytinei ir galių ir (arba) negalių įvairovei, bendradarbiaudamas kasdienėse situacijose veiks daugiakultūrėje aplinkoje."
-        },
-        {
-          "title": "Kuriame, įsigyjame ir naudojame gėrybes",
-          "description": "Žaisdamas, tyrinėdamas, bendradarbiaudamas pažins įvairias profesijas, ekonominio gyvenimo reiškinius ir formuosis atsakingo vartojimo nuostatas ir įpročius."
-        },
-        {
-          "title": "Mūsų gyvenimo kaita",
-          "description": "Tyrinėdamas savo paties augimą, šeimos gyvenimą ir krašto istoriją pradės formuotis kaitos sąvoką, priimti kaitą ir plėtos pirminius informacijos rinkimo bei interpretacijos įgūdžius."
-        }
+        "Kasdieniai gyvenimo įgūdžiai",
+        "Fizinis aktyvumas",
+        "Emocijų suvokimas ir raiška",
+        "Savireguliacija ir savikontrolė",
+        "Savivoka ir savigarba",
+        "Santykiai su suaugusiaisiais ir bendraamžiais",
+        "Aplinkos pažinimas",
+        "Matematinis mąstymas",
+        "Skaitmeninis sumanumas",
+        "Kalbų supratimas",
+        "Kalbinė raiška",
+        "Estetinis suvokimas",
+        "Meninė raiška",
+        "Kūrybiškumas",
+        "Tyrinėjimas",
+        "Problemų sprendimas",
+        "Gebėjimas žaisti",
+        "Mokėjimas mokytis"
       ]
     }
   },
   "clubs": {
     "enabled": true,
     "title": "Būreliai ir papildomos veiklos",
-    "intro": "Po pamokinių užsiėmimų vaikai kviečiami tobulėti būreliuose, kurie ugdo kūrybiškumą, pasitikėjimą savimi ir naujus įgūdžius.",
+    "intro": "",
     "items": [
       {
         "name": "Keramika",
-        "description": "Lipdymas iš molio lavina smulkiąją motoriką, kūrybiškumą ir kantrybę.",
         "icon": "fa-solid fa-jar",
         "comingSoon": false
       },
       {
         "name": "Šokiai",
-        "description": "Ritmas, muzika ir judesys padeda vaikams laisvai išreikšti save.",
         "icon": "fa-solid fa-music",
         "comingSoon": false
       },
       {
         "name": "Karatė",
-        "description": "Disciplina, koordinacija ir pasitikėjimas savimi per sportą.",
         "icon": "fa-solid fa-hand-fist",
         "comingSoon": false
       },
       {
         "name": "Teatras",
-        "description": "Vaidyba ugdo vaizduotę, emocinį intelektą ir viešo kalbėjimo drąsą.",
         "icon": "fa-solid fa-masks-theater",
         "comingSoon": false
       },
       {
         "name": "Anglų kalba",
-        "description": "Žaidybinė kalbinė aplinka – pirmieji žingsniai kitoje kalboje.",
         "icon": "fa-solid fa-language",
         "comingSoon": false
       },
       {
         "name": "Robotika",
-        "description": "STEAM užsiėmimai mažiesiems – jau ruošiami!",
         "icon": "fa-solid fa-robot",
         "comingSoon": true
       }
@@ -276,94 +143,56 @@
     "extras": [
       {
         "name": "Judesių korekcija",
-        "description": "Specialistų vedamos mankštos ir pratimai taisyklingai laikysenai.",
         "icon": "fa-solid fa-person-running"
       },
       {
         "name": "Dailė",
-        "description": "Piešimas, spalvinimas, kompozicija – laisva saviraiška.",
         "icon": "fa-solid fa-paintbrush"
       },
       {
         "name": "Muzika",
-        "description": "Dainos, ritmo instrumentai, klausymasis ir muzikavimas.",
         "icon": "fa-solid fa-guitar"
       },
       {
         "name": "Logopedija",
-        "description": "Individuali logopedo pagalba vaikams, kuriems reikalinga kalbos priežiūra.",
         "icon": "fa-solid fa-comments"
       }
-    ]
+    ],
+    "extrasTitle": "Darželio papildomos veiklos"
   },
   "history": {
     "enabled": true,
     "title": "Mūsų istorija",
-    "intro": "„Gintarėlis“ auga ir keičiasi kartu su Klaipėda. Nuo 1960-ųjų čia skamba vaikų juokas, o jūros ir miško aplinka kasdien primena, kad geriausia mokykla – gamta.",
+    "intro": "Vaikų darželis duris atvėrė 1960 m. spalio 17 d. Tuo metu jis buvo žinybinis ir priklausė Jūrų prekybos uostui. Dėl palankios vietos ir gamtinių sąlygų susiformavo ugdymo kryptis, orientuota į vaikų fizinį aktyvumą ir sveikatos stiprinimą.",
     "foundedDate": "1960-10-17",
-    "foundedText": "Įkurtas 1960 m. spalio 17 d.",
-    "experienceText": "Jau daugiau nei šešis dešimtmečius auginame, mokome ir įkvepiame mažuosius klaipėdiečius.",
-    "timeline": [
-      {
-        "year": "1960",
-        "title": "Gimė „Gintarėlis“",
-        "text": "1960 m. spalio 17 d. duris atvėrė darželis, kuris greitai tapo mylimu Girulių rajono vaikų namais.",
-        "image": "/assets/uploads/history/a.jpg"
-      },
-      {
-        "year": "1970",
-        "title": "Bendruomenės traukos centras",
-        "text": "Augant rajonui, „Gintarėlis“ tapo vieta, kur susitinka šeimos, o vaikai auga žaisdami šalia jūros.",
-        "image": "/assets/uploads/history/b.jpg"
-      },
-      {
-        "year": "1990",
-        "title": "Modernūs ugdymo metodai",
-        "text": "Įstaiga pradėjo taikyti patyriminio ugdymo ir menų integracijos metodus, kurie išliko iki šiol.",
-        "image": "/assets/uploads/history/istorijai2.jpg"
-      },
-      {
-        "year": "2025",
-        "title": "Atsinaujinęs „Gintarėlis“",
-        "text": "Šiandien „Gintarėlis“ – atviras, šiuolaikiškas ir gamtos prieglobstyje augantis darželis su dideliais ateities planais.",
-        "image": "/assets/uploads/history/%C5%BEod%C5%BEiai.jpg"
-      }
-    ],
+    "foundedText": "",
+    "experienceText": "",
+    "timeline": [],
     "advantages": [
       {
-        "title": "Mažas darželis",
-        "text": "Intymesnė aplinka ir daugiau dėmesio kiekvienam vaikui.",
-        "icon": "fa-solid fa-house-chimney"
+        "icon": "fa-solid fa-chalkboard-user",
+        "title": "Patyrę pedagogai",
+        "text": "Rūpestingas ir profesionalus kolektyvas, kuriam svarbus kiekvienas vaikas."
       },
       {
-        "title": "Atskari miegamieji",
-        "text": "Ramūs ir jaukūs poilsio kambariai dienos miegui.",
-        "icon": "fa-solid fa-bed"
+        "icon": "fa-solid fa-palette",
+        "title": "Įvairios ugdomosios veiklos",
+        "text": "Kūryba, menas, muzika, pažinimas ir aktyvus judėjimas."
       },
       {
-        "title": "Valgykla",
-        "text": "Šilti, subalansuoti pusryčiai, pietūs ir vakarienės.",
-        "icon": "fa-solid fa-utensils"
+        "icon": "fa-solid fa-graduation-cap",
+        "title": "Pasiruošimas mokyklai",
+        "text": "Vaikai mokosi skaityti, rašyti, skaičiuoti."
       },
       {
-        "title": "Gimnastikos salė",
-        "text": "Erdvi salė judesiui, sportui ir sveikatinimo veikloms.",
-        "icon": "fa-solid fa-dumbbell"
+        "icon": "fa-solid fa-users",
+        "title": "Jauki nedidelė bendruomenė",
+        "text": "Glaudus bendradarbiavimas tarp pedagogų ir šeimų."
       },
       {
-        "title": "Renginių salė",
-        "text": "Vieta koncertams, šventėms ir bendroms veikloms.",
-        "icon": "fa-solid fa-star"
-      },
-      {
-        "title": "Didelė teritorija",
-        "text": "Žaidimų aikštelės, daržas ir erdvės judriems žaidimams.",
-        "icon": "fa-solid fa-tree"
-      },
-      {
-        "title": "Šviesios klasės",
-        "text": "Dideli langai ir šviesios patalpos, skirtos kūrybai.",
-        "icon": "fa-solid fa-sun"
+        "icon": "fa-solid fa-water",
+        "title": "Augame pajūryje",
+        "text": "Reguliarios veiklos pajūryje, pasivaikščiojimai kopose ir pažintis su gamta visais metų laikais."
       }
     ],
     "images": [
@@ -371,7 +200,9 @@
       "/assets/uploads/history/b.jpg",
       "/assets/uploads/history/istorijai2.jpg",
       "/assets/uploads/history/%C5%BEod%C5%BEiai.jpg"
-    ]
+    ],
+    "story": "Jau daugiau nei šešis dešimtmečius puoselėjame aktyvų gyvenimo būdą, rūpinamės vaikų gerove ir kuriame aplinką, kurioje auga sveiki ir laimingi vaikai.",
+    "eyebrow": "Iš metraščio"
   },
   "testimonials": {
     "enabled": false,
@@ -508,7 +339,7 @@
     "enabled": true,
     "title": "Google atsiliepimai",
     "intro": "Dėkojame šeimoms, kurios vertina mūsų darbą „Google Maps“ platformoje.",
-    "average": 5.0,
+    "average": 5,
     "link": "https://www.google.com/search?q=Gintarelis,+Klaipedos+darzelis+Reviews&hl=lt",
     "reviews": [
       {
@@ -588,38 +419,28 @@
   },
   "prices": {
     "enabled": true,
-    "title": "Kainos ir maitinimas",
-    "intro": "Teikiame skaidrią informaciją apie mokestį už ugdymą ir maitinimą. Dokumentus galite atsisiųsti žemiau.",
+    "title": "Maitinimas",
+    "intro": "",
     "priceCards": [
       {
-        "label": "Mėnesinis mokestis",
-        "value": " nuo 0 €",
-        "note": "Klaipėdos savivaldybės finansuojamos vietos"
-      },
-      {
         "label": "Maitinimas",
-        "value": "pagal Klaipėdos sav. įkainius",
-        "note": "4 maitinimai per dieną"
-      },
-      {
-        "label": "Būreliai",
-        "value": "nemokami / simbolinis mokestis",
-        "note": "Priklauso nuo būrelio tipo"
+        "value": "4 kartus dienoje",
+        "note": "gaminamas vietoje profesionalių virėjų"
       }
     ],
-    "pdf": "/assets/documents/ikimokyklinio-ugdymo-programa.pdf",
-    "pdfLabel": "Atsisiųsti ugdymo programą (PDF)",
-    "notes": "Tikslias kainas ir maitinimo įkainius rasite įstaigos dokumentuose arba susisiekę telefonu / el. paštu."
+    "pdf": "/assets/documents/Dėl atlyginimo už maitinimo paslaugas 2023-12.pdf",
+    "pdfLabel": "Maitinimo paslaugos",
+    "notes": "Tikslias kainas ir maitinimo įkainius rasite dokumente."
   },
   "news": {
     "enabled": true,
     "title": "Naujienos",
-    "intro": "Sekite aktualias „Gintarėlio“ skyriaus naujienas iš „Giliuko“ svetainės.",
+    "intro": "Giliuko naujienos",
     "newsPageUrl": "https://www.klaipedosgiliukas.lt/category/turistu-g-30-klaipeda/",
     "feedUrl": "https://www.klaipedosgiliukas.lt/category/turistu-g-30-klaipeda/feed/",
     "facebookUrl": "https://www.facebook.com/people/Klaip%C4%97dos-lop%C5%A1elis-dar%C5%BEelis-Giliukas-Gintar%C4%97lio-skyrius/61583433928058/",
     "fallbackMessage": "Tuo metu negalime užkrauti naujausių įrašų. Spauskite mygtuką ir peržiūrėkite visas naujienas „Giliuko“ svetainėje.",
-    "maxPosts": 6,
+    "maxPosts": 3,
     "items": [
       {
         "title": "Atnaujinta „Gintarėlio“ svetainė",
@@ -650,12 +471,12 @@
     "phone": "+370 46 420039",
     "email": "gintarelisdarzelis@gmail.com",
     "address": "Girulių pl. 1, LT-92282 Klaipėda",
-    "mapEmbed": "https://maps.google.com/maps?q=Giruli%C5%B3%20pl.%201%2C%20Klaip%C4%97da&t=&z=15&ie=UTF8&iwloc=&output=embed",
+    "mapEmbed": "https://maps.google.com/maps?q=Giruli%C5%B3%20pl.%201%2C%20Klaip%C4%97da&t=k&z=15&ie=UTF8&iwloc=&output=embed",
     "facebook": "https://www.facebook.com/people/Klaip%C4%97dos-lop%C5%A1elis-dar%C5%BEelis-Giliukas-Gintar%C4%97lio-skyrius/61583433928058/",
     "hours": [
       {
         "days": "I–V",
-        "time": "7:00 – 18:30"
+        "time": "07:30–18:00 val."
       },
       {
         "days": "VI–VII",
@@ -703,12 +524,8 @@
             "href": "#ugdymas"
           },
           {
-            "label": "Būreliai",
-            "href": "#bureliai"
-          },
-          {
-            "label": "Galerija",
-            "href": "#galerija"
+            "label": "Maitinimas",
+            "href": "#kainos"
           },
           {
             "label": "Kontaktai",
@@ -759,6 +576,7 @@
       }
     ],
     "copyright": "Visos teisės saugomos © 2025 Klaipėdos lopšelis-darželis „Giliukas“ – „Gintarėlio“ skyrius",
-    "legal": "Svetainėje pateikiama informacija yra orientacinė. Tikslias sąlygas patikslinsime asmeniškai."
+    "legal": "Svetainėje pateikiama informacija yra orientacinė. Tikslias sąlygas patikslinsime asmeniškai.",
+    "tagline": "Klaipėdos lopšelio-darželis „Giliukas“ – „Gintarėlio“ skyrius"
   }
 }
